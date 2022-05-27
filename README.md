@@ -1,6 +1,6 @@
 # CUDOS P2P SCAN
 
-The tool checks if given node p2p port is responsive, by connecting, doing the tendermint handshake. If successful, the target node information will be displayed and process exit code will be zero. On fail the exit code will be non-zero.
+The tool checks if given node p2p port is responsive, by connecting and doing the tendermint handshake. If successful, the target node information will be displayed and process exit code will be zero. On fail the exit code will be non-zero.
 
 ## Build
 
