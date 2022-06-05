@@ -82,7 +82,7 @@ var defaultProtocolVersion = p2p.NewProtocolVersion(
 )
 
 func testNodeInfo(id p2p.ID, name string) p2p.NodeInfo {
-	return testNodeInfoWithNetwork(id, name, "testing")
+	return testNodeInfoWithNetwork(id, name, "cudos-p2p-scan")
 }
 
 func testNodeInfoWithNetwork(id p2p.ID, name, network string) p2p.NodeInfo {
