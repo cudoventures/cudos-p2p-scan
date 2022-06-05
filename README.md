@@ -4,7 +4,7 @@ The tool checks if given node p2p port is responsive, by connecting and doing th
 
 ## Build
 
-```
+```bash
 cd apps/cudos-p2p-scan
 go build
 ```
@@ -12,13 +12,13 @@ go build
 
 ## Run
 
-```
+```bash
 ./cudos-p2p-scan TargetHost:26656
 ```
 
 Example output:
 
-```
+```json
 {
   "Status": "open",
   "ID": "f93e129f120fd1de3e9d60d2bd376ae96af325dd",
