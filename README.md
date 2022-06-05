@@ -4,16 +4,26 @@ The tool checks if given node p2p port is responsive, by connecting and doing th
 
 ## Build
 
+### Local
+
 ```bash
-cd apps/cudos-p2p-scan
 go build
 ```
 
+### Direct from GitHub repo
+
+```bash
+go install -v github.com/CudoVentures/cudos-p2p-scan@latest
+```
+
+### Binary
+
+Binary will be written to ```~/go/bin/cudos-p2p-scan```
 
 ## Run
 
 ```bash
-./cudos-p2p-scan TargetHost:26656
+~/go/bin/cudos-p2p-scan <Target Host>:<Target port usually 26656>
 ```
 
 Example output:
